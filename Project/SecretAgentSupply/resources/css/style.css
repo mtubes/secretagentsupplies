@@ -1,0 +1,281 @@
+
+html{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 9rem;
+}
+header h3{
+  display: inline-block;
+
+}
+.logo img{
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  padding-top: 0.5rem;
+  flex-direction: column;
+}
+.logo h3{
+  flex-direction: column;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+
+}
+
+.banner{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.newarrival{
+  display:inline-block;
+  align-items: center;
+  background-color: black;
+  width: 20rem;
+  height: auto;
+  margin-top: 9rem;
+  margin-left: 9rem;
+
+}
+
+.newarrival h3{
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: 2rem;
+
+}
+.newarrival h1{
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: 0.25rem;
+}
+
+.menu {
+  background-color: firebrick;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.menu nav{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  align-content: space-between;
+}
+
+a{
+  color: white;
+  align-content: space-between;
+  margin-left: 3.3rem ;
+  margin-right: 3.3rem;
+}
+
+.container{
+  background-color: white ;
+}
+
+.featured{
+  display: flex;
+  flex-direction: row;
+  text-align:center;
+  justify-content: center;
+  border: 2px solid white;
+  margin: 1.5rem 1.5rem;
+}
+
+#pen{
+  border: 4px solid black;
+  background-color: white;
+  width: 30%;
+  margin: 1.5rem 1.5rem;
+}
+#pen p{
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+}
+#pen img{
+  height: 9rem;
+  width: 9rem;
+  padding: 2rem 2rem;
+  align-items: center;
+
+}
+#watch{
+  border: 4px solid black;
+  width: 30%;
+  margin: 1.5rem 1.5rem;
+}
+#watch p{
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+
+}
+#watch img{
+  height: 9rem;
+  width: 9rem;
+  margin: 2rem 2rem;
+}
+
+#glasses{
+  border: 4px solid black;
+  width: 30%;
+  margin: 1.5rem 1.5rem;
+}
+#glasses p{
+  flex-direction: column;
+  background-color: black;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+#glasses img{
+
+  height: 9rem;
+  width: 12rem;
+  margin: 2rem 2rem;
+}
+
+/*---bottom---*/
+.bottom-container{
+  display: flex;
+  border: 2px solid black;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.bottom-container p{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.location{
+    display: inline-block;
+    flex-direction: column;
+    text-align:center;
+    width: 35%;
+    margin: 3rem 15% 4rem 15%;
+}
+#location{
+  background-color: black;
+  color: white;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.hours{
+  display: inline-block;
+  flex-direction: column;
+  text-align:center;
+  width: 35%;
+  margin: 3rem 15% 4rem 15%;
+}
+#hours{
+  background-color: black;
+  color: white;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer{
+  background-color: black;
+  height: 5rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer p{
+  flex-direction: row;
+  align-self:center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 1024px){
+ .newarrival h3{
+   font-family: Helvetica;
+   font-size: 0.77rem;
+   font-weight: bold;
+ }
+ .newarrival h1{
+   font-family: Helvetica;
+   font-size: 1rem;
+   font-weight: bold;
+ }
+ nav{
+   display: none;
+ }
+ .featured img{
+   width: 90%;
+ }
+ .hours{
+   width: 35%;
+ }
+
+@media only screen and (max-width: 470px){
+  .newarrival h3{
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  .newarrival h1{
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .newarrival {
+    padding-left: 2rem;
+    margin-top: 10rem;
+  }
+  .menu{
+    margin-top: 15rem;
+  }
+  .featured img{
+    width: 90%;
+  }
+  .hours{
+    width: 90%;
+  }
+  .location{
+    margin-bottom: 0.5rem;
+  }
+}
