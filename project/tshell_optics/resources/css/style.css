@@ -2,8 +2,10 @@ html{
   font-family:  Helvetica;
   font-size: 18px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  background-color: azure;
 
 
 
@@ -14,8 +16,6 @@ header{
   background-size: cover;
   height: 30rem;
 
-
-
 }
 
 .top-container{
@@ -24,7 +24,7 @@ header{
   background-size: 960px;
   display: flex;
   flex-direction: row;
-  margin: 1rem 2rem;
+  margin: 1rem 10rem;
   font-size: 1rem;
 
 
@@ -37,7 +37,8 @@ header{
 .nav-main{
   display: flex;
   flex-direction: row;
-  margin-left: 42rem;
+  margin-left: 23rem;
+  margin-right: 2rem;
   align-self: center;
   justify-content: flex-end;
 
@@ -49,7 +50,7 @@ a{
   font-size: 1rem;
 }
 .banner{
-  margin: 10rem 5rem 10rem 53rem;
+  margin: 10rem 5rem 10rem 52rem;
 
 }
 .banner h1{
@@ -126,10 +127,14 @@ a{
 .bottom-container {
   font-family: Helvetica;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
 
 }
 .philosophy{
   width: 35%;
+  margin-right: 2.5%;
 
 }
 .philosophy h2{
@@ -138,13 +143,35 @@ a{
   background-color: cadetblue;
   width: 10rem;
   color: white;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
 }
 .appointments{
-
+  width: 35%;
+  margin-left: 2.5%;
 }
 .appointments h2{
   font-weight: bold;
   font-size: 1rem;
   background-color: cadetblue;
   color: white;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
+}
+
+.foot-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
+  margin-left: 18rem;
+}
+.foot-container img{
+  height: 1.5rem;
+  align-self: center;
+  margin-right: 1rem;
 }
